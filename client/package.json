@@ -12,6 +12,10 @@
     "react-scripts": "2.0.5",
     "redux": "^4.0.1"
   },
+  "engines": {
+    "node": ">= 6.9.4",
+    "npm": ">= 4.4.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
