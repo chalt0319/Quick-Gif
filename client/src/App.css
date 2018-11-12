@@ -1,0 +1,259 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  position: fixed;
+  width: 100%;
+  margin-top: -2%;
+  /* min-height: 100vh; */
+  padding: 15px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 5;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-form {
+  display: inline;
+  position: relative;
+  left: 43%;
+  margin: 0 auto;
+}
+
+.post-image {
+  width: 500px;
+}
+
+.heart {
+  position: relative;
+  top: 7px;
+  max-width: 23px;
+  padding-left: 6px;
+  padding-right: 5px;
+}
+
+.heart:active {
+  transform: rotate(20deg);
+}
+
+.comment {
+  position: relative;
+  top: 7px;
+  max-width: 20px;
+  min-height: 20px;
+  padding-left: 5px;
+}
+
+.comment-li {
+  margin-bottom: -15px;
+  font-family: Optima;
+}
+
+.delete {
+  position: relative;
+  top: -4px;
+  left: 430px;
+  max-width: 10px;
+  min-height: 10px;
+  opacity: 0.4;
+}
+
+.delete:active {
+  opacity: 0.8;
+}
+
+#scroll {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  max-width: 40px;
+}
+
+#heart {
+  position: absolute;
+  left: 5%;
+  top: 4.5%;
+  max-width: 23px;
+  margin-top: 1.3%;
+}
+
+#home {
+  position: absolute;
+  left: 2%;
+  top: 4.5%;
+  max-width: 23px;
+  margin-top: 1.3%;
+}
+
+#comment {
+  position: absolute;
+  left: 8%;
+  top: 4.5%;
+  max-width: 23px;
+  min-height: 23px;
+  margin-top: 1.3%;
+}
+
+#user {
+  position: absolute;
+  right: 4%;
+  top: 2%;
+  max-width: 30px;
+  min-height: 30px;
+  margin-top: 1%;
+}
+
+@keyframes slidein
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+#pikachu {
+  position: relative;
+  bottom: 3%;
+  left: 1%;
+  max-width: 90px;
+  animation: slidein 5s linear 1s infinite running;
+}
+
+#likes-header {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#commented-header {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#posts-header {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#users-header {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+body {
+  background: grey;
+  margin: auto;
+}
+
+.image-box {
+  background: white;
+  margin: 10px auto;
+  width: 500px;
+  border: 0px solid white;
+  border-radius: 7px;
+  display: block;
+  padding: 20px 0 20px;
+}
+
+.title {
+  position: relative;
+  top: 0;
+  left: 10px;
+  padding-bottom: 5px;
+  font-family: Optima;
+  font-size: 18px;
+}
+
+.user-image {
+  display: inline;
+  max-width: 70px;
+  min-width: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  border: 0px solid white;
+  border-radius: 5px;
+}
+
+.username {
+  /* display: inline; */
+  font-family: Optima;
+  font-size: 18px;
+  position: relative;
+  top: -70px;
+  left: 90px;
+  padding-left: 10px;
+}
+
+.user-box {
+  background: white;
+  margin: 10px auto;
+  width: 450px;
+  border: 0px solid white;
+  border-radius: 5px;
+  display: block;
+  max-height: 70px;
+  min-height: 70px;
+}
+
+.user-form {
+  margin: 10px auto;
+  width: 450px;
+  /* border: 0px solid white;
+  border-radius: 10px; */
+  display: block;
+  max-height: 30px;
+  min-height: 30px;
+}
+
+.user-thumbsup {
+  position: relative;
+  bottom: 27px;
+  right: -310px;
+  max-width: 20px;
+  min-height: 20px;
+  z-index: 4;
+}
+
+.user-likes {
+  position: relative;
+  bottom: 48px;
+  right: -410px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+h2 {
+
+}
+
+.Instagram-bar {
+  margin-bottom: 50px;
+}
