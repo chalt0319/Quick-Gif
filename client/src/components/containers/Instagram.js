@@ -36,9 +36,7 @@ class Instagram extends Component {
       <Link to='/comments'>
         <img id="comment" onClick={this.scrollUp} src='http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png' alt="Comment"/>
       </Link>
-      <Link to='/users'>
-        <img id="user" onClick={this.scrollUp} src='https://mbtskoudsalg.com/images/user-avatar-png-7.png' alt="User"/>
-      </Link>
+
       <SearchInput searchBar={this.searchBar}/>
       <img id="scroll" onClick={this.scrollUp} src='https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png' alt="scroll"/>
       </div>
@@ -53,3 +51,8 @@ const mapDispatchToProps = dispatch => {
 }
 
 export default connect(null, mapDispatchToProps)(Instagram)
+
+
+// <Link to='/users'>
+//   <img id="user" onClick={this.scrollUp} src='https://mbtskoudsalg.com/images/user-avatar-png-7.png' alt="User"/>
+// </Link>

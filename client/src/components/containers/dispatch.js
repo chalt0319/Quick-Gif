@@ -1,7 +1,7 @@
 
 export function dispatchFunction(word) {
   return function (dispatch) {
-    return fetch(`http://api.giphy.com/v1/gifs/search?q=${word}&api_key=dc6zaTOxFJmzC&rating=g`)
+    return fetch(`https://api.giphy.com/v1/gifs/search?q=${word}&api_key=dc6zaTOxFJmzC&rating=g`)
       .then(response => response.json())
       .then(data => {
         dispatch({type: 'ADD_POST', posts: data['data']})})
