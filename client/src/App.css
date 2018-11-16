@@ -18,9 +18,10 @@
   /* flex-direction: column; */
   /* align-items: center; */
   /* justify-content: center; */
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
   z-index: 5;
+  height: 30px;
 }
 
 .App-link {
@@ -37,9 +38,10 @@
 }
 
 .search-form {
-  display: inline;
+  /* display: inline; */
   position: relative;
   left: 43%;
+  top: 8px;
   margin: 0 auto;
 }
 
@@ -98,7 +100,7 @@
 
 #heart {
   position: absolute;
-  left: 5%;
+  left: 70px;
   top: 4.5%;
   max-width: 23px;
   margin-top: 1.3%;
@@ -106,7 +108,7 @@
 
 #home {
   position: absolute;
-  left: 2%;
+  left: 30px;
   top: 4.5%;
   max-width: 23px;
   margin-top: 1.3%;
@@ -114,7 +116,7 @@
 
 #comment {
   position: absolute;
-  left: 8%;
+  left: 110px;
   top: 4.5%;
   max-width: 23px;
   min-height: 23px;
