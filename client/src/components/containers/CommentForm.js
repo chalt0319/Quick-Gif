@@ -24,7 +24,7 @@ class CommentForm extends Component {
 
     return (
       <span>
-        <input onChange={this.handleChange} type="text" value={this.state.text} size="70" placeholder="Add a comment"></input>
+        <input className="input-field" onChange={this.handleChange} type="text" value={this.state.text} size="70" placeholder="Add a comment"></input>
         <input type='image' className='comment' onClick={this.handleClick} src='http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png' alt='comment'></input>
       </span>
     );
