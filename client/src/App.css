@@ -59,6 +59,10 @@
   transform: rotate(20deg);
 }
 
+.input-field {
+  width: 85%;
+}
+
 .comment {
   position: relative;
   top: 7px;
